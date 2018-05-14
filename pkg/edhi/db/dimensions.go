@@ -5,12 +5,12 @@ package db
 import (
 	"fmt"
 
-	"github.com/talalashraf/go/pkg/datastructure"
+	"github.com/talalashraf/go/pkg/edhi"
 )
 
 // Dimensions implements dimensions
 type Dimensions struct {
-	datastructure.Dimensions
+	edhi.Dimensions
 	Talal int64
 }
 

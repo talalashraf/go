@@ -1,4 +1,4 @@
-package datastructure
+package edhi
 
 // Dimensions store X and Y. Y is X plus 10
 type Dimensions struct {

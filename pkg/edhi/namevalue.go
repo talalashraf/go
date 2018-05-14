@@ -1,4 +1,4 @@
-package datastructure
+package edhi
 
 // NameValue store name and value. Value is len name
 type NameValue struct {

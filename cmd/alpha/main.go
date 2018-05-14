@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	datastructure "github.com/talalashraf/go/pkg/datastructure/db"
+	datastructure "github.com/talalashraf/go/pkg/edhi/db"
 )
 
 func main() {

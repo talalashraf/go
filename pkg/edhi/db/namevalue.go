@@ -5,12 +5,12 @@ package db
 import (
 	"fmt"
 
-	"github.com/talalashraf/go/pkg/datastructure"
+	"github.com/talalashraf/go/pkg/edhi"
 )
 
 // NameValue implements namevalue
 type NameValue struct {
-	datastructure.NameValue
+	edhi.NameValue
 	Talal int64
 }
 
