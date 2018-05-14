@@ -3,14 +3,14 @@ package main
 import (
 	"fmt"
 
-	"github.com/talalashraf/go/pkg/datastructure/db"
+	datastructure "github.com/talalashraf/go/pkg/datastructure/db"
 )
 
 func main() {
 	// Setup
 	fmt.Printf("Declare\n=======\n")
-	d := &db.Dimensions{}
-	nv := &db.NameValue{}
+	d := &datastructure.Dimensions{}
+	nv := &datastructure.NameValue{}
 
 	// Retrieve
 	fmt.Printf("Retrieving\n==========\n")
